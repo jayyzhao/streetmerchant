@@ -326,7 +326,8 @@ export type Model =
   | 'xlr8 verto oc'
   | 'xlr8 verto'
   | 'xlr8'
-  | 'xtreme';
+  | 'xtreme'
+  | 'rog astral';
 
 export type Link = {
   brand: Brand;

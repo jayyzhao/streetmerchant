@@ -32,10 +32,10 @@ export function sendDiscordMessage(link: Link, store: Store) {
         const embed = new Discord.MessageEmbed()
           .setTitle('_**Stock alert!**_')
           .setDescription(
-            '> provided by [streetmerchant](https://github.com/jef/streetmerchant) with :heart:'
+            '> provided by [Gachapon Server](https://google.com.au) with :heart:'
           )
           .setThumbnail(
-            'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-logo.png'
+            'https://files.oaiusercontent.com/file-HB57EkUstSVtsWBeNJSSsq?se=2025-02-06T09%3A32%3A35Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc38543ad-f136-481c-b697-4193396d9083.webp&sig=15lZY/L6RGewiGHGivcf/tNTA4%2BNSjrBm40q%2BHSaQvQ%3D'
           )
           .setColor('#52b788')
           .setTimestamp();
@@ -76,7 +76,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
                 .send({
                   content: notifyText.length ? notifyText.join(' ') : null,
                   embeds: [embed],
-                  username: 'streetmerchant',
+                  username: 'GachaBot',
                 })
                 .then(resp => {
                   logger.info('✔ discord message sent resp.id: ' + resp.id);
