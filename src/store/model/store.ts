@@ -39,7 +39,8 @@ export type Brand =
   | 'sparkle'
   | 'ubiquiti'
   | 'xfx'
-  | 'zotac';
+  | 'zotac'
+  | 'popmart';
 
 export type Series =
   | 'test:series'
@@ -90,7 +91,8 @@ export type Series =
   | 'unvr-pro'
   | 'unvr'
   | 'xboxss'
-  | 'xboxsx';
+  | 'xboxsx'
+  | 'themonsters';
 
 export type Model =
   | 'test:model'
@@ -327,7 +329,13 @@ export type Model =
   | 'xlr8 verto'
   | 'xlr8'
   | 'xtreme'
-  | 'rog astral';
+  | 'rog astral'
+  | 'have a seat'
+  | 'almost hidden'
+  | 'lets have fun rattle drum'
+  | 'lets checkmate plus hang'
+  | 'lets checkmate plus doll'
+  | 'amp extreme ai';
 
 export type Link = {
   brand: Brand;

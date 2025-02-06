@@ -171,6 +171,7 @@ import {Wipoid} from './wipoid';
 import {Xbox} from './xbox';
 import {XtremMedia} from './xtremmedia';
 import {Zotac} from './zotac';
+import {Popmart} from './popmart';
 
 import chalk from 'chalk';
 import {logger} from '../../logger';
@@ -346,6 +347,7 @@ export const storeList = new Map([
   [Xbox.name, Xbox],
   [XtremMedia.name, XtremMedia],
   [Zotac.name, Zotac],
+  [Popmart.name, Popmart]
 ]);
 
 const brands = new Set();

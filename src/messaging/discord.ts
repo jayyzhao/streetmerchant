@@ -35,7 +35,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
             '> provided by [Gachapon Server](https://google.com.au) with :heart:'
           )
           .setThumbnail(
-            'https://files.oaiusercontent.com/file-HB57EkUstSVtsWBeNJSSsq?se=2025-02-06T09%3A32%3A35Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc38543ad-f136-481c-b697-4193396d9083.webp&sig=15lZY/L6RGewiGHGivcf/tNTA4%2BNSjrBm40q%2BHSaQvQ%3D'
+            'https://raw.githubusercontent.com/jayyzhao/streetmerchant/refs/heads/jz-custom/images/gachapon.webp'
           )
           .setColor('#52b788')
           .setTimestamp();

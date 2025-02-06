@@ -1,10 +1,10 @@
 version: '3.0'
 services:
   streetmerchant:
-    image: ghcr.io/jef/streetmerchant:latest
+    image: docker.io/jayyzhao/stock-checker:v1.0.0
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: streetmerchant
+    container_name: stock-checker
     env_file:
       - dotenv
