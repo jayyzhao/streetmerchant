@@ -1,6 +1,6 @@
 version: '3.0'
 services:
-  streetmerchant:
+  stock-checker:
     image: docker.io/jayyzhao/stock-checker:v1.0.0
     # build:
     #   context: .
