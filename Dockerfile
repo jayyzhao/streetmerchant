@@ -14,7 +14,6 @@ COPY tsconfig.json tsconfig.json
 RUN npm ci
 
 COPY src/ src/
-COPY test/ test/
 RUN npm run compile
 RUN npm prune --production
 
