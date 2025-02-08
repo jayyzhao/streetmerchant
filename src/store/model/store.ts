@@ -134,6 +134,7 @@ export type Model =
   | 'aorus xtreme waterforce 24g'
   | 'aorus xtreme waterforce wb'
   | 'aorus xtreme waterforce'
+  | 'aorus xtreme waterforce liquid'
   | 'aorus xtreme'
   | 'aorus'
   | 'astral oc'
