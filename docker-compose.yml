@@ -18,6 +18,7 @@ services:
     # build:
     #   context: .
     #   dockerfile: Dockerfile
+    network_mode: "service:gluetun"
     container_name: stock-checker
     env_file:
       - dotenv
