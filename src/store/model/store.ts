@@ -342,7 +342,8 @@ export type Model =
   | 'lets checkmate plus doll'
   | 'gaming solid'
   | 'gaming solid oc'
-  | 'amp extreme ai';
+  | 'amp extreme ai'
+  | 'epic-x oc';
 
 export type Link = {
   brand: Brand;
