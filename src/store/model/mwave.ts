@@ -4,13 +4,17 @@ export const Mwave: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
   labels: {
+    inStock: {
+      container: 'body > div.promotionWrapper > div > div.layoutBody > div.mwWrapperCont.mwNoHeadPadTop > div.productCommon > div.proRightBox > div.divAddCart > div.divDown > div.addToBasket.addToCarts > button',
+      text: ['Add to Cart'],
+    },
     maxPrice: {
       container: 'div.divPriceNormal > div',
       euroFormat: false,
     },
     outOfStock: {
-      container: '.stockAndDelivery > li:nth-child(1) > dl > dd',
-      text: ['Currently No Stock'],
+      container: 'body > div.promotionWrapper > div > div.layoutBody > div.mwWrapperCont.mwNoHeadPadTop > div.productCommon > div.proRightBox > div.divAddCart > div.divDown > a',
+      text: ['Currently No Stock', 'Notify Me'],
     },
   },
   links: [

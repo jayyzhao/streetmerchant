@@ -6,12 +6,12 @@ export const Cpl: Store = {
   labels: {
     inStock: {
       container:
-        'div.product-stock > table > tbody > tr:nth-child(1) > td.stock-value',
+        '#maincontent > div.columns > div.column.main > div.product-info-wrapper > div.product-info-main > div.product-info-price.scroll-reveal.reveal-slide-in.reveal-ready > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span',
       text: ['In Stock'],
     },
     outOfStock: {
       container:
-        'div.product-stock > table > tbody > tr:nth-child(1) > td.stock-value',
+        '#maincontent > div.columns > div.column.main > div.product-info-wrapper > div.product-info-main > div.product-info-price.scroll-reveal.reveal-slide-in.reveal-ready > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > span',
       text: ['Pre Order'],
     },
   },
