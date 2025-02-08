@@ -15,10 +15,10 @@ services:
     env_file:
       - dotenv.gluetun
   stock-checker:
-    image: docker.io/jayyzhao/stock-checker:v1.0.0
-    # build:
-    #   context: .
-    #   dockerfile: Dockerfile
+    image: docker.io/jayyzhao/stock-checker:v1.0.1
+    build:
+      context: .
+      dockerfile: Dockerfile
     network_mode: "service:gluetun"
     container_name: stock-checker
     env_file:
