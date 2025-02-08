@@ -137,6 +137,7 @@ export type Model =
   | 'aorus xtreme'
   | 'aorus'
   | 'astral oc'
+  | 'astral liquid oc'
   | 'astral'
   | 'b580'
   | 'battle-ax'
@@ -174,6 +175,8 @@ export type Model =
   | 'gamerock'
   | 'gaming oc pro'
   | 'gaming oc waterforce wb'
+  | 'xtreme waterforce'
+  | 'xtreme waterforce wb'
   | 'gaming oc'
   | 'gaming pro oc'
   | 'gaming pro'
@@ -226,6 +229,7 @@ export type Model =
   | 'nitro+ se'
   | 'nitro+'
   | 'oc'
+  | '1 click oc'
   | 'pegasus oc'
   | 'pegasus'
   | 'phantom gaming oc'
@@ -308,6 +312,7 @@ export type Model =
   | 'windforce'
   | 'x trio'
   | 'x3 oc'
+  | 'x3'
   | 'x3w'
   | 'xbox series s'
   | 'xbox series x'
@@ -335,6 +340,8 @@ export type Model =
   | 'lets have fun rattle drum'
   | 'lets checkmate plus hang'
   | 'lets checkmate plus doll'
+  | 'gaming solid'
+  | 'gaming solid oc'
   | 'amp extreme ai';
 
 export type Link = {
