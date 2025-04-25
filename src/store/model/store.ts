@@ -337,6 +337,7 @@ export type Model =
   | 'xtreme'
   | 'rog astral'
   | 'have a seat'
+  | 'big into energy'
   | 'almost hidden'
   | 'lets have fun rattle drum'
   | 'lets checkmate plus hang'

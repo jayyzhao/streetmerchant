@@ -35,6 +35,12 @@ export const Popmart: Store = {
       model: 'lets checkmate plus doll',
       series: 'themonsters',
       url: "https://www.popmart.com/au/products/1707/THE%20MONSTERS%20Let's%20Checkmate%20Series-Vinyl%20Plush%20Doll",
+    },
+    {
+      brand: 'popmart',
+      model: 'big into energy',
+      series: 'themonsters',
+      url: "https://www.popmart.com/au/products/1707/THE%20MONSTERS%20Let's%20Checkmate%20Series-Vinyl%20Plush%20Doll",
     }
   ],
   name: 'popmart',
