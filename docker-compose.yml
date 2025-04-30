@@ -10,6 +10,8 @@ services:
       - /dev/net/tun
     env_file:
       - dotenv.gluetun
+    ports:
+      - 10300:10300
   stock-checker:
     build:
       context: .
