@@ -1,24 +1,20 @@
 version: '3.0'
 services:
-  # gluetun:
-  #   image: qmcgaw/gluetun
-  #   container_name: gluetun
-  #   restart: always
-  #   cap_add:
-  #     - NET_ADMIN
-  #   devices:
-  #     - /dev/net/tun
-  #   ports:
-  #     - 8080:8080
-  #     - 8081:8081
-  #     - 9999:9999
-  #   env_file:
-  #     - dotenv.gluetun
+  gluetun-sm:
+    image: qmcgaw/gluetun
+    container_name: gluetun-sm
+    restart: always
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    env_file:
+      - dotenv.gluetun
   stock-checker:
     build:
       context: .
       dockerfile: Dockerfile
-    # network_mode: "service:gluetun"
+    network_mode: "service:gluetun-sm"
     container_name: stock-checker
     env_file:
       - dotenv
