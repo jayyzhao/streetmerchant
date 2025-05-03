@@ -345,6 +345,16 @@ export type Model =
   | 'gaming solid'
   | 'gaming solid oc'
   | 'amp extreme ai'
+  | 'jump for joy'
+  | 'flip with me'
+  | 'catch me if you can'
+  | 'best of luck'
+  | 'i found you'
+  | 'labubu x pronounce'
+  | 'time to chill plush'
+  | 'dress be late plush'
+  | 'fall in wild pendant'
+  | 'fall in wild plush'
   | 'epic-x oc';
 
 export type Link = {
