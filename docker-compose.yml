@@ -17,6 +17,9 @@ services:
       context: .
       dockerfile: Dockerfile
     network_mode: "service:gluetun-sm"
+    depends_on:
+      gluetun-sm:
+        condition: service_healthy
     container_name: stock-checker
     env_file:
       - dotenv
