@@ -20,27 +20,9 @@ export const Popmart: Store = {
   links: [
     {
       brand: 'popmart',
-      model: 'have a seat',
-      series: 'themonsters',
-      url: 'https://www.popmart.com/au/products/1318/THE-MONSTERS---Have-a-Seat-Vinyl-Plush-Blind-Box',
-    },
-    {
-      brand: 'popmart',
       model: 'big into energy',
       series: 'themonsters',
       url: "https://www.popmart.com/au/products/1990/THE-MONSTERS-Big-into-Energy-Series-Vinyl-Plush-Pendant-Blind-Box",
-    },
-    {
-      brand: 'popmart',
-      model: 'fall in wild pendant',
-      series: 'themonsters',
-      url: "https://www.popmart.com/au/products/864/THE-MONSTERS-FALL-IN-WILD-SERIES-Vinyl-Plush-Doll-Pendant",
-    },
-    {
-      brand: 'popmart',
-      model: 'fall in wild plush',
-      series: 'themonsters',
-      url: "https://www.popmart.com/au/products/863/THE-MONSTERS-FALL-IN-WILD-SERIES-Vinyl-Plush-Doll",
     },
     {
       brand: 'popmart',
@@ -77,12 +59,6 @@ export const Popmart: Store = {
       model: 'catch me if you can',
       series: 'themonsters',
       url: "https://www.popmart.com/au/products/652/THE-MONSTERS---BEST-OF-LUCK-Vinyl-Plush-Doll",
-    },
-    {
-      brand: 'popmart',
-      model: 'flip with me',
-      series: 'themonsters',
-      url: "https://www.popmart.com/au/products/1199/THE-MONSTERS---FLIP-WITH-ME-Vinyl-Plush-Doll",
     },
     {
       brand: 'popmart',
