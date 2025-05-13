@@ -40,7 +40,8 @@ export type Brand =
   | 'ubiquiti'
   | 'xfx'
   | 'zotac'
-  | 'popmart';
+  | 'popmart'
+  | 'gymshark';
 
 export type Series =
   | 'test:series'
@@ -93,7 +94,8 @@ export type Series =
   | 'xboxss'
   | 'xboxsx'
   | 'themonsters'
-  | 'crybaby';
+  | 'crybaby'
+  | 'onyx';
 
 export type Model =
   | 'test:model'
@@ -357,7 +359,16 @@ export type Model =
   | 'fall in wild pendant'
   | 'fall in wild plush'
   | 'wild but cutie series'
-  | 'epic-x oc';
+  | 'epic-x oc'
+  | 'v5 t-shirt blue'
+  | 'v5 t-shirt red'
+  | 'v5 t-shirt grey'
+  | 'v5 tank grey'
+  | 'v5 tank red'
+  | 'v5 tank blue'
+  | 'v5 long grey'
+  | 'v5 long red'
+  | 'v5 long blue';
 
 export type Link = {
   brand: Brand;

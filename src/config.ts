@@ -446,6 +446,8 @@ const store = {
   maxPrice: {
     series: {
       'themonsters': envOrNumber(process.env.MAX_PRICE_SERIES_THEMONSTERS),
+      'crybaby': envOrNumber(process.env.MAX_PRICE_SERIES_CRYBABY),
+      'onyx': envOrNumber(process.env.MAX_PRICE_SERIES_ONYX),
       3050: envOrNumber(process.env.MAX_PRICE_SERIES_3050),
       3060: envOrNumber(process.env.MAX_PRICE_SERIES_3060),
       '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
