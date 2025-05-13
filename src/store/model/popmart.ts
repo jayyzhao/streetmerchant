@@ -66,7 +66,12 @@ export const Popmart: Store = {
       series: 'themonsters',
       url: "https://www.popmart.com/au/products/297/THE-MONSTERS-JUMP-FOR-JOY-Vinyl-Plush-Doll",
     },
-
+    {
+      brand: 'popmart',
+      model: 'wild but cutie series',
+      series: 'crybaby',
+      url: "https://www.popmart.com/au/products/297/THE-MONSTERS-JUMP-FOR-JOY-Vinyl-Plush-Doll",
+    },
   ],
   name: 'popmart',
   country: 'AU',

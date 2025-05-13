@@ -92,7 +92,8 @@ export type Series =
   | 'unvr'
   | 'xboxss'
   | 'xboxsx'
-  | 'themonsters';
+  | 'themonsters'
+  | 'crybaby';
 
 export type Model =
   | 'test:model'
@@ -355,6 +356,7 @@ export type Model =
   | 'dress be late plush'
   | 'fall in wild pendant'
   | 'fall in wild plush'
+  | 'wild but cutie series'
   | 'epic-x oc';
 
 export type Link = {
